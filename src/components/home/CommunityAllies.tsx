@@ -20,7 +20,7 @@ function ScrollBasedVelocityDemo() {
 const CommunityAllies = () => {
   return (
     <div className="">
-      <div className="font-semibold text-center text-4xl m-10 ">
+      <div className="font-semibold text-center text-6xl m-10 ">
         Community Allies
       </div>
       <ScrollBasedVelocityDemo />

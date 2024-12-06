@@ -203,7 +203,7 @@ const StyledWrapper = styled.div`
 
     .project-type {
       font-size: 8px;
-      padding: 0.1em 0.3em;
+    padding: 0.5em 0.4em;
     }
   }
 `;

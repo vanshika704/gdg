@@ -84,7 +84,7 @@ const InstagramPostHero = () => {
     <div className="min-h-screen flex flex-col items-center">
       {/* Header */}
       <div className="w-full">
-        <h1 className="p-10 text-4xl md:text-8xl font-thin text-gray-800 tracking-widest">
+        <h1 className="p-10 text-4xl md:text-7xl ml-20 font-thin text-gray-800 tracking-widest">
           INSTAGRAM
           <br />
           POSTS

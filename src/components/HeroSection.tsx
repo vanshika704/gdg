@@ -135,10 +135,12 @@ const HeroSection = () => {
 
       {/* Background image */}
       <div
-  className="absolute inset-0 bg-center bg-no-repeat mb-24 ml-10 opacity-10  "
+  className="absolute inset-0 bg-center bg-no-repeat mb-24 ml-10"
   style={{
     backgroundImage: `url('/images/contact/gdg logoo.png')`,
-    backgroundSize: "45%", // Reduce the size slightly
+    backgroundSize: "55%", // Adjust size as needed
+    opacity: 0.1,
+    filter: "blur(8px)" // Increase blur level
   }}
 ></div>
 

@@ -6,7 +6,17 @@ import RounderBorderAbout from "@/components/custom/RounderBorderWapper";
 
 const About = () => {
   return (
-    <div className="w-full justify-center bg-gradient-to-b from-[#0a0a0a] to-[#373737] overflow-hidden">
+    <div className="w-full justify-center bg-gradient-to-b from-[#0a0a0a] to-[#5e5d5d] overflow-hidden">
+      <div
+  className="absolute inset-0 bg-center bg-no-repeat mb-24 ml-10"
+  style={{
+    backgroundImage: `url('/images/contact/gdg logoo.png')`,
+    backgroundSize: "55%", // Adjust size as needed
+    opacity: 0.1,
+    filter: "blur(8px)" // Increase blur level
+  }}
+></div>
+
       {/* Faculty Advisor Section */}
       <div className="flex w-full mx-auto max-w-4xl justify-between items-center gap-6 p-6 flex-col md:flex-row">
         {/* Left */}
