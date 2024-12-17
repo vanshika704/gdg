@@ -40,7 +40,7 @@ const About = () => {
       {/* GDG Lead Section */}
       <div className="flex w-full mx-auto max-w-4xl justify-between items-center gap-6 p-6 flex-col-reverse md:flex-row">
         {/* Left */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left ">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-500 mb-3">
             Mr. Parag Sharma
           </h1>
@@ -57,7 +57,7 @@ const About = () => {
       </div>
 
       {/* Team Carousel */}
-      <div className="p-16">
+      <div className="p-20">
         <TeamCarousel />
       </div>
       {/* <GlobeDemo /> */}
