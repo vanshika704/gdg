@@ -18,9 +18,14 @@ const About = () => {
 ></div>
 
       {/* Faculty Advisor Section */}
-      <div className="flex w-full mx-auto max-w-4xl justify-between items-center gap-6 p-6 flex-col md:flex-row">
+      
+      <div className="flex w-full mx-auto max-w-4xl justify-between items-center gap-6 p-6 flex-col md:flex-row  ">
         {/* Left */}
-        <FluidAnimation path={"/images/vishalsir.jpeg"} />
+        {/* <FluidAnimation path={"/images/vishalsir.jpeg"} /> */}
+        <FluidAnimation
+  path="/images/vishalsir.jpeg"
+  quote="Act without expectation"
+/>
         {/* Right */}
         <div className="text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-500 mb-3">
@@ -44,7 +49,11 @@ const About = () => {
           </p>
         </div>
         {/* Right */}
-        <FluidAnimation path={"/images/parag.jpeg"} />
+        {/* <FluidAnimation path={"/images/parag.jpeg"} /> */}
+        <FluidAnimation
+  path="/images/parag.jpeg"
+  quote="believe you can"
+/>
       </div>
 
       {/* Team Carousel */}
