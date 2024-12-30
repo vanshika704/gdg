@@ -25,9 +25,9 @@ const Header = () => {
         <Link href="/" className="flex items-center gap-2 text-white">
           <Image src="/images/logo.png" alt="GDG Logo" width={40} height={40} />
           <div className="text-sm ">
-            <div className="font-bold text-md">Google Developer Groups</div>
+            <div className="font-bold text-md">Google Developer Groups (OnCampus)</div>
             <div className="text-gray-400 text-xs  sm:block">
-              Maharishi Markendeshwar University
+           Maharishi Markendeshwar (Deemed to be University)
             </div>
           </div>
         </Link>
