@@ -22,15 +22,16 @@ const Header = () => {
   return (
     <nav className="relative  p-4 sm:p-10 bg-[#0a0a0a] z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-2 text-white">
-          <Image src="/images/logo.png" alt="GDG Logo" width={40} height={40} />
-          <div className="text-sm ">
-            <div className="font-bold text-md">Google Developer Groups</div>
-            <div className="text-gray-400 text-xs  sm:block">
-            OnCampus Maharishi Markendeshwar (Deemed to be University)
-            </div>
-          </div>
-        </Link>
+      <Link href="/" className="flex items-center gap-2 text-white">
+  <Image src="/images/logo.png" alt="GDG Logo" width={40} height={40} />
+  <div className="text-sm">
+    <div className="font-bold text-lg">Google Developer Groups</div>
+    <div className="text-gray-400 text-xs sm:block">
+      OnCampus • Maharishi Markendeshwar (Deemed to be University)
+    </div>
+  </div>
+</Link>
+
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-4 border border-gray-700 rounded-full text-md ">
